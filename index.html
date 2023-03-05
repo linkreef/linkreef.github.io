@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LinkReef</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body{
+			background-color: #0f0f1c;
+			text-align: center;
+		}
+		h1{
+			color: #f9f871;
+			text-decoration: underline;
+			text-decoration-color: #078c64;
+			text-decoration-style: wavy;
+			text-shadow: 1px 1px 10px #078c64;
+			font-size: 80px;
+			animation-name: stylechange;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes stylechange{
+			0%{font-style: normal;}
+			25%{font-style: italic;}
+			50%{font-style: normal;}
+			75%{font-style: italic;}
+			100%{font-style: normal;}
+			
+		}
+		#go:hover{
+			font-style: italic;
+			font-weight: bold;
+		}
+		#go{
+			padding: 10px;
+			border-radius: 4px;
+			color: black;
+			opacity: 0.8;
+			animation-name: colorchange;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes colorchange{
+			0% {border: 2px solid #f9f871;
+				background-color: #078c64;
+			}
+			25% {border: 3px solid #078c64;
+				background-color: #f9f871;
+			}
+			50% {border: 2px solid #f9f871;
+				background-color: #078c64;
+			}
+			100% {border: 3px solid #078c64;
+				background-color: #f9f871;
+			}
+		}
+		a{
+			text-decoration: none;
+		}
+		article p{
+			color: #078c64;
+			position: relative;
+			max-width: 90%;
+			left: 5%;
+		}
+		#guresh{
+			color: #f9f871;
+		}
+	</style>
+</head>
+<body>
+	<br>
+	<h1>Link Reef</h1>
+	<br><br><br>
+	<a href="home.html"><span id="go">Click Here</span></a>
+	<br>
+	<article>
+		<br>
+		<p>LinkReef a simple website made by <span id="guresh"><b>Challa Guresh and Friends</b></span>.This website is hub a for hand full of visual entertainment providing website links for a easy go through and adequation of time.</p>
+	</article>
+
+</body>
+</html>
